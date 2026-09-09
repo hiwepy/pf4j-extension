@@ -195,11 +195,11 @@
             <artifactId>slf4j-api</artifactId>
         </dependency>
     </dependencies>
-    <modules>
-        <module>pf4j-extension-core</module>
-        <module>pf4j-extension-spring</module>
-        <module>pf4j-extension-update</module>
-    </modules>
+    <subprojects>
+        <subproject>pf4j-extension-core</subproject>
+        <subproject>pf4j-extension-spring</subproject>
+        <subproject>pf4j-extension-update</subproject>
+    </subprojects>
     <!-- 制品发布仓库配置（distributionManagement） -->
     <distributionManagement>
         <repository>
